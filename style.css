@@ -1,0 +1,380 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(248, 248, 248);
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(155, 113, 113);
+    box-shadow: 2px 2px 12px rgba(63, 1, 16, 0.2);
+    padding: 0px, 5%;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(240, 240, 240);
+    font-size: 16px;
+    font-weight: 650;
+}
+
+nav ul li a:hover
+{
+    background-color: rgb(218, 147, 152);
+    color: rgb(240, 240, 240);
+    border-radius: 5px;
+}
+
+.logo
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(240, 240, 240);
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px 50px 0px;
+}
+
+#home
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.home p
+{
+    line-height: 0px;
+    margin: 85px 0px 24px;
+}
+
+.home p:nth-child(1)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(139, 36, 62);
+    font-size: 40px;
+}
+
+.home p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(139, 36, 62);
+    letter-spacing: none;
+    font-size: 30px;
+}
+
+.home p:nth-child(3)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(121, 30, 30);
+    font-size: 30px;
+}
+
+.home p:nth-child(4)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(59, 42, 48);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.home
+{
+    position: absolute;
+    left: 5%;
+    right: 15%;
+    transform: translate(13% , 36%);
+}
+
+.picture
+{
+    width: 330px;
+    height: auto;
+    position: absolute;
+    left: 77%;
+    top: 30%;
+    transform: translateX(-70%);
+}
+
+.about
+{
+    height: 75vh;
+    background-color: rgb(230, 227, 223);
+    padding: 2% 10% 10%;
+    text-align: center;
+}
+
+.about-desc
+{
+    margin: 50px 50px;
+}
+
+.about-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-desc p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(44, 43, 43);
+    text-align: center;
+}
+
+.row
+{
+    margin: 35px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row .column h2
+{
+    text-align: center;
+}
+
+.row .column p
+{
+    text-align: center;
+}
+
+.column
+{
+    flex: 80%;
+    padding: 30px;
+    height: 135px;
+    background-color: rgb(255, 238, 242);
+}
+
+/*skill*/
+.skill
+{
+    height: 65vh;
+    background-color: rgb(255, 255, 255);
+    padding: 7% 10% 10%;
+    text-align: center;
+}
+
+.skill-desc
+{
+    margin: 50px 50px;
+}
+
+.skill-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.skill-desc p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(143, 138, 133);
+    text-align: center;
+}
+
+.box-container
+{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.box-1, .box-2, .box-3
+{
+    width: 350px;
+    height: 350px;
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+.box-1 span, .box-2 span, .box-3 span
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(177, 89, 96);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.box-1 p:nth-child(3), .box-2 p:nth-child(3), .box-3 p:nth-child(3)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(32, 32, 32);
+    width: 250px;
+    margin: 0px 0px 50px 0px;
+}
+
+/* contact */
+.contact
+{
+    height: 65vh;
+    background-color: rgb(230, 227, 223);
+    padding: 7% 10% 10%;
+    
+}
+.contact-desc
+{
+    margin: 50px 50px;
+}
+
+.contact-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(7, 0, 2);
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.contact-desc p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(143, 138, 133);
+    text-align: center;
+}
+
+input[type=text], select, textarea
+{
+    width: 100%;
+    padding: 12px;
+    border:  1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+input[type=submit]
+{
+   background-color:rgb(177, 89, 96); 
+   color: white;
+   padding: 12px 24px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+    background-color:rgb(95, 40, 45); 
+}
+
+input:active
+{
+    transform: scale(1.1);
+}
+
+/* footer */
+footer
+{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color:rgb(214, 200, 202);
+}
+
+footer p 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p:nth-child(1)
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(109, 22, 44); 
+    line-height: 20px;
+}
+footer p:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(109, 22, 44); 
+    line-height: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.social-icons
+{
+    margin: 30px 0px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.social-icons a
+{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.social-icons i
+{
+    font-size: 35px;
+    color: rgb(109, 22, 44); 
+}
+
+.social-icons a:hover
+{
+    background-color: rgb(85, 4, 24);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
